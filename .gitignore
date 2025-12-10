@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables (contains API keys - NEVER commit this!)
+.env
+
+# Logs
+logs/
+*.log
+
+# Database files
+data.db
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# LaunchAgent plist (contains absolute paths specific to your machine)
+com.sqlite-sqlalchemy.streamlit.plist
