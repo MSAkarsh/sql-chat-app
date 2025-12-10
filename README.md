@@ -1,12 +1,12 @@
 # Akarsh DB - SQL Chat Application
 
-A Streamlit-based chat application that allows natural language querying of the Chinook SQLite database using AI (Groq LLM).
+A Streamlit-based chat application that allows natural language querying of the Akarsh SQLite database using AI (Groq LLM).
 
 ## Features
 
 - 🤖 Natural language to SQL query generation using Groq's LLM
 - 💬 Interactive chat interface with conversation history
-- 🗄️ Pre-loaded Chinook database (music store data)
+- 🗄️ Pre-loaded Akarsh database (music store data)
 - 🌐 Network accessible - share with friends on your local network
 - 🔄 Auto-starts on system login (macOS)
 
@@ -55,7 +55,7 @@ Or use the convenience script:
 
 ## Database Schema
 
-The Chinook database contains music store data with tables for Albums, Artists, Customers, Employees, Genres, Invoices, MediaTypes, Playlists, and Tracks.
+The Akarsh database contains music store data with tables for Albums, Artists, Customers, Employees, Genres, Invoices, MediaTypes, Playlists, and Tracks.
 
 ## Example Queries
 
@@ -68,7 +68,7 @@ Try asking the chat:
 ## Tech Stack
 
 - **Frontend:** Streamlit
-- **Database:** SQLite (Chinook sample database)
+- **Database:** SQLite (Akarsh sample database)
 - **ORM:** SQLAlchemy
 - **LLM:** Groq (llama-3.3-70b-versatile)
 - **Framework:** LangChain
