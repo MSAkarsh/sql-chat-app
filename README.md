@@ -9,6 +9,7 @@ A Streamlit-based chat application that allows natural language querying of the 
 - 🗄️ Pre-loaded Akarsh database (music store data)
 - 🌐 Network accessible - share with friends on your local network
 - 🔄 Auto-starts on system login (macOS)
+<img width="3791" height="1289" alt="image" src="https://github.com/user-attachments/assets/f3fa1d69-c2c9-4450-ad4e-b91802957f5b" />
 
 ## Quick Start
 
