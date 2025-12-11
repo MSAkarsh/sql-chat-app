@@ -8,6 +8,15 @@ from langchain_groq import ChatGroq
 import streamlit as st
 import os
 
+# Load environment variables (including LangSmith API key)
+load_dotenv()
+
+# Configure LangSmith tracing (optional - set LANGCHAIN_TRACING_V2=true and LANGSMITH_API_KEY in .env)
+if os.getenv("LANGCHAIN_TRACING_V2") == "true":
+    os.environ["LANGCHAIN_TRACING_V2"] = "true"
+    if not os.getenv("LANGSMITH_API_KEY"):
+        st.warning("⚠️ LangSmith tracing enabled but LANGSMITH_API_KEY not set. Set it in .env to enable tracing.")
+
 # Streamlit app that connects to a SQLite database (default) or MySQL if you prefer.
 # It uses the LangChain/Groq pipeline you supplied to generate SQL and natural language responses.
 
